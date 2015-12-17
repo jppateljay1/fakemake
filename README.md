@@ -9,7 +9,7 @@ Type "make fakemake" to compile
 ./fakemake <filename> to run the program
 type "?" to see available commands and follow on screen procedures
 
-To detect any repeated cycle, you have to actually use the make <filename> command
+To detect any repeated cycle, you have to actually use the make "<filename>" command
 
 Other sanity checkers have been added to eliminate any errors within the program. For example, if you try to make a basic file, it will print out an error. Also, if you have a basic file with in the dependency, it will also check that as well.
 For example: let's say we have this makefile for example
