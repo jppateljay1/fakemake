@@ -7,7 +7,6 @@ The program mimics the behavior of the UNIX make program
 
 Type "make fakemake" to compile
 ./fakemake [filename] to run the program
-
 type "?" to see available commands and follow on screen procedures
 
 The program detects repeated by itself before actually running it to avoid later problems.
