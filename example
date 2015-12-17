@@ -1,0 +1,10 @@
+a
+b
+c
+d
+p : x y
+x : a b
+y : b c
+z : c d
+q : y z
+r : p q
