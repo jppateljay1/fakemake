@@ -4,7 +4,7 @@ The program mimics the behavior of the UNIX make program
  * Jay Patel
  * file://readme.txt
  */
-
+filenames in this directory for test cases: exaple, trivial, try, simple
 Type "make fakemake" to compile
 ./fakemake [filename] to run the program
 type "?" to see available commands and follow on screen procedures
