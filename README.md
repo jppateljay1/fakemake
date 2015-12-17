@@ -55,7 +55,7 @@ A target is up to date if and only if all of the files it depends on are up to d
 
 When the make command is invoked on a particular target, its job is to bring the target up to date if it isn’t already; if any of the target’s dependencies are out of date, they are brought up to date before bringing the target up to date.
 
-Commands available in the program
+Commands available in the program and associated runtime
 
 time: This command reports the current value of the clock. Runtime: O(1)
 touch [filename]: This command changes the time stamp on the specified filename to the current clock value is and increments the clock. This applies only to “basic” files; not targets with dependencies – an attempt to touch such a file should result in an error message (and the program should continue). Runtime: O(1) expected time
